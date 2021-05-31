@@ -1213,7 +1213,8 @@ button.swiper-pagination-bullet {
     padding: 0 16px;
     margin: 32px 0 0;
     position: relative;
-    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
     scrollbar-width: none;
     -ms-overflow-style: none; }
     .products__list-container::-webkit-scrollbar {
@@ -1259,7 +1260,8 @@ button.swiper-pagination-bullet {
   .products__list-container {
     max-width: 639px;
     margin: 24px 0 0;
-    padding: 0; }
+    padding: 0;
+    overflow: unset; }
     .products__list-container::after {
       display: none; }
   .products__list {
