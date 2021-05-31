@@ -1260,6 +1260,8 @@ button.swiper-pagination-bullet {
     max-width: 639px;
     margin: 24px 0 0;
     padding: 0; }
+    .products__list-container::after {
+      display: none; }
   .products__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
