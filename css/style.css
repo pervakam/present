@@ -1021,6 +1021,11 @@ button.swiper-pagination-bullet {
     text-align: left; }
   .page-footer__description {
     margin: 0; }
+    .page-footer__description a {
+      text-decoration: none;
+      color: #000078; }
+      .page-footer__description a:hover {
+        color: #2d56fc; }
   .page-footer__description-list {
     margin: 24px 0 0;
     padding: 0;
